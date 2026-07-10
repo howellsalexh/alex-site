@@ -121,7 +121,7 @@ a.convo:hover{transform:translateY(-3px);box-shadow:0 14px 38px rgba(42,56,85,.1
   width:100%;
   height:100%;
   object-fit:cover;
-  object-position:center top;
+  object-position:50% 30%;
   display:block;
 }
 .convo .body{padding:22px;}
