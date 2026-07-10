@@ -146,9 +146,23 @@ a.convo:hover{transform:translateY(-3px);box-shadow:0 14px 38px rgba(42,56,85,.1
   border-radius:4px;background:linear-gradient(90deg,var(--teal),var(--green));}
 .bio{display:grid;grid-template-columns:120px 1fr;gap:20px;background:var(--cream-2);
   border:1px solid var(--line);border-radius:14px;padding:24px;margin-top:34px;}
-.bio .pic{aspect-ratio:1;border-radius:50%;background:#e6dcca;display:flex;
-  align-items:center;justify-content:center;color:var(--muted);font-family:"Poppins";
-  font-size:11px;text-align:center;}
+.bio .pic{
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  overflow:hidden;
+  background:#e6dcca;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.bio .pic img{
+  width:85%;
+  height:85%;
+  object-fit:cover;
+  border-radius:50%;
+}
 .share{font-family:"Poppins";font-size:14px;font-weight:600;color:var(--navy);
   display:inline-flex;gap:8px;align-items:center;margin-top:8px;text-decoration:none;}
 .back{font-family:"Poppins";font-size:14px;color:var(--navy-soft);text-decoration:none;
