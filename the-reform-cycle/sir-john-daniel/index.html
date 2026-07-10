@@ -42,7 +42,13 @@
   .guestbio{display:grid;grid-template-columns:110px 1fr;gap:20px;background:var(--cream-2);
     border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin:8px 0 40px;}
   .guestbio .pic{aspect-ratio:1;border-radius:50%;overflow:hidden;background:#e6dcca;}
-  .guestbio .pic img{width:100%;height:100%;object-fit:cover;display:block;}
+  .guestbio .pic img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center 20%;
+    display:block;
+}
   .guestbio h3{font-size:19px;margin:0 0 .3em;}
   .guestbio p{font-size:16px;margin:0;color:var(--navy-soft);}
   @media(max-width:560px){ .guestbio{grid-template-columns:1fr;} .guestbio .pic{max-width:120px;} }
