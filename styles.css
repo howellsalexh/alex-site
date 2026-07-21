@@ -52,8 +52,18 @@ p{margin:0 0 1.6em;}
   background:linear-gradient(90deg,var(--teal),var(--green));margin:0 0 26px;}
 
 /* hero */
-.hero{padding:84px 0 56px;}
-.hero-grid{display:grid;grid-template-columns:1.3fr .9fr;gap:48px;align-items:center;}
+.hero{padding:84px 0 76px;}
+
+.hero .lead{
+    max-width:36em;
+}
+
+.hero-grid{
+    display:grid;
+    grid-template-columns:1.3fr .9fr;
+    gap:60px;
+    align-items:center;
+}
 .portrait-ph{aspect-ratio:4/5;border-radius:14px;background:
   repeating-linear-gradient(45deg,var(--cream-2),var(--cream-2) 14px,#ece3d2 14px,#ece3d2 28px);
   border:1px solid var(--line);display:flex;align-items:center;justify-content:center;
