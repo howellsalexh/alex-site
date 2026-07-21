@@ -23,6 +23,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
+  <style>
+  /* Home hero: make the photo match the intro text's height (top and bottom) */
+  @media (min-width: 821px) {
+    .hero-grid { align-items: stretch; }
+    .hero-grid .portrait-ph { aspect-ratio: auto; height: 100%; }
+  }
+  .hero .lead { margin-bottom: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,8 +77,7 @@
         <div class="eyebrow navy">History, learning and reform</div>
         <h1 class="display">Alex Howells</h1>
         <div class="accent-rule"></div>
-        <p class="lead">My research explores how societies organise learning in pursuit of social, economic and political goals, from decolonisation and development to lifelong learning and contemporary debates about technological change. I also work on learning policy and practice with international organisations, governments and partners.</p>
-        <p class="muted">I am interested in how ideas about learning emerge, travel and change, and in what earlier reform movements reveal about the promises and choices shaping learning today. I previously worked at the UNESCO Institute for Lifelong Learning in Hamburg, coordinating policy dialogues, workshops and research, before beginning my doctoral research at the Geneva Graduate Institute.</p>
+        <p class="lead">My work explores the ways in which societies organise learning – and have organised it in the past – in pursuit of social, economic and political goals, from decolonisation and development to lifelong learning and today's debates about technology. I am interested in how ideas about learning travel across borders, change over time and impact people's lives. I also support international organisations, governments and partners with learning policy and practice, connecting local experience to the global governance of education.</p>
       </div>
       <div class="portrait-ph">
         <img src="/profile.jpg" alt="Alex Howells portrait" style="width:100%;height:100%;object-fit:cover;border-radius:14px;">
@@ -86,7 +93,7 @@
         <a class="card" href="/work/">
           <div class="k">Practice</div>
           <h3>Work</h3>
-          <p>Policy advice, capacity-building and research with governments, international organisations and partners on how learning systems are designed, implemented and adapted.</p>
+          <p>Policy advice, capacity-building and research with governments, international organisations and partners on learning-system improvement.</p>
           <span class="go">View work →</span>
         </a>
         <a class="card" href="/research/">
@@ -98,7 +105,7 @@
         <a class="card" href="/the-reform-cycle/">
           <div class="k">Public work</div>
           <h3>The Reform Cycle</h3>
-          <p>Recorded conversations with the people involved in previous cycles of learning reform — exploring the promises made, their consequences and what remains of them today.</p>
+          <p>Recorded conversations with the people who shaped earlier cycles of learning reform — their stories and legacies.</p>
           <span class="go">Enter the series →</span>
         </a>
       </div>
@@ -110,7 +117,7 @@
       <div class="eyebrow navy">About</div>
       <h2 class="sec">Learning and reform in historical perspective</h2>
       <p>For more than a decade I have moved between the classroom, the international organisation and the archive. I began as a primary teacher in Manchester, trained in comparative education and international development in Edinburgh, and later worked at the UNESCO Institute for Lifelong Learning in Hamburg, where I coordinated policy dialogues, workshops and research across Africa and Asia.</p>
-      <p>These experiences now underpin my doctoral research in international history and politics at the Geneva Graduate Institute. I am interested in the weight of expectation placed on learning, the gap between promise and reality, and the global and transnational forces that shape what societies imagine to be possible.</p>
+      <p>These experiences underpin my doctoral research in international history and politics at the Geneva Graduate Institute.</p>
     </div>
   </section>
 </main>
